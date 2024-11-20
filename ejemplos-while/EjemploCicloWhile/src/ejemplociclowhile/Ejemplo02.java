@@ -17,14 +17,14 @@ public class Ejemplo02 {
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner entrada = new Scanner(System.in);
-        entrada.useLocale(Locale.US);
+        entrada.useLocale(Locale.US); // este sirve para cmbiar de coma a punto
         int limite;
         int contador = 1;
         System.out.println("Ingrese el Límite");
         limite = entrada.nextInt(); 
         while (contador <= limite){
             
-            if (contador%2!=0) {
+            if (contador%2==0) { // el %2 es igual a MOD2"el residuo" 
                 System.out.printf("Contador %d\n", 
                     contador);
             }
