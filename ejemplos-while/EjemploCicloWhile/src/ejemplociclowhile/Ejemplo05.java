@@ -42,7 +42,7 @@ public class Ejemplo05 {
         }
         
         promedio_final = suma_total/limite;
-        System.out.printf("El promedio final es %f\n", promedio_final);
+        System.out.printf("El promedio final es %.1f\n", promedio_final);
         
     }
 }

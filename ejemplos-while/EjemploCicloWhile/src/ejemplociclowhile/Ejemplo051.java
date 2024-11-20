@@ -45,7 +45,8 @@ public class Ejemplo051 {
         
         promedio_final = suma_total/limite;
         // System.out.printf("El promedio final es %f\n", promedio_final);
-        mensajeFinal = String.format("%s\n%f", 
+        mensajeFinal = String.format("%s\n%f", //String.format ayuda a manejar el formato 
+                // y es muy parecido al printf
                 mensajeFinal, promedio_final);
         
         System.out.printf("%s\n", mensajeFinal);
