@@ -102,7 +102,12 @@ public class Ejemplo102 {
            
         }
                 
-        System.out.printf("%s\n", cadena);
+        System.out.printf("Tabla de sumar\n\n%s,\n Tabla de restar\n\n%s\n tabla de multiplicarn\n%s",
+                cadena,
+                cadenaSuma;
+      
+                
+                
         
     }
 }
